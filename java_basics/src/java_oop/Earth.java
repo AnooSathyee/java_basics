@@ -3,7 +3,7 @@ package java_oop;
 public class Earth {
 
 	public static void main(String[] args) {
-		
+
 		Human human1 = new Human("Anu",40, 65.5,"brown");
 		human1.speak();
 		System.out.println("===========================");
@@ -12,6 +12,9 @@ public class Earth {
 		System.out.println("===========================");
 		Human human3 = new Human("Anya", 11, 56, "brown");
 		human3.speak();
+		human1.work();
+		human1.eat();
+		human1.walk();
 	}
 
 }

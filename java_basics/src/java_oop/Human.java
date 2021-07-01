@@ -26,14 +26,14 @@ public class Human {
 	}
 
 	public void eat() {
-		System.out.println("eating ...");
+		System.out.println(this.name + " is eating ...");
 	}
 
 	public void walk() {
-		System.out.println("walking....");
+		System.out.println(this.name + " is walking....");
 	}
 
 	public void work() {
-		System.out.println("working...");
+		System.out.println(this.name + " is working...");
 	}
 }
